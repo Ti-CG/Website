@@ -65,10 +65,8 @@ html {
 }
 
 /* SEARCH */
-.search-ba {
-  padding: 8px 12px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
+.search-bar {
+  display: none;
 }
 
 /* HAMBURGER */
