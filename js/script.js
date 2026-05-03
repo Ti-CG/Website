@@ -113,3 +113,8 @@ createDots();
 hamburger.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
+
+function setLang(lang) {
+  document.cookie = `googtrans=/en/${lang}; path=/`;
+  location.reload();
+}
