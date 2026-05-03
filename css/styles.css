@@ -35,7 +35,7 @@ html {
   max-width: 1150px;
   margin: 0 auto;
   padding: 0 24px;
-  scroll-snap-align: start;
+  
 }
 
 /* NAVBAR */
@@ -65,8 +65,9 @@ html {
 
 .navbar-left a:hover {
   text-decoration: none;
-  color: #2e1800;
+  color: #442400;
   font-weight: 500;
+  transform: scale(1.1)
 }
 /* RIGHT SIDE */
 .navbar-right {
@@ -92,18 +93,18 @@ html {
 @media (max-width: 768px) {
 
   .navbar-left {
-    position: absolute; /* muda isto */
-    top: 120px; /* altura da tua navbar */
+    position: absolute; 
+    top: 120px; 
     left: 0;
     width: 100%;
-
+    
     background: #e3d0c0;
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
 
     display: none;
-    z-index: 1000; /* importante */
+    z-index: 1000; 
   }
 
   .navbar-left.active {
@@ -158,16 +159,11 @@ html {
 }
 
 @media (max-width: 768px) {
-  .goog-te-banner-frame,
-  .goog-te-gadget,
-  .goog-te-combo,
   #google_translate_element {
-    display: none !important;
+    display: none;
   }
 
-  body {
-    top: 0 !important;
-  }
+
 }
 /* HERO */
 .hero {
@@ -217,6 +213,14 @@ html {
   color: #833700;
 }
 
+.collect {
+  color: #833700;
+}
+
+.trade {
+  color: #fff5f5;
+}
+
 /* HERO BUTTONS */
 .btn {
   display: inline-block;
@@ -229,7 +233,7 @@ html {
 
 .btn-dark {
   background: #833700;
-  color: #e3d0c0;
+  color: #fff5f5;
 }
 .contact-btn {
   display: inline-block;
@@ -588,7 +592,7 @@ html {
 }
 .contact a:hover{
   color:#b44b00;
-  font-size: 20.5px;
+  
 }
 .email{
   font-size: 20px;
@@ -622,7 +626,7 @@ html {
 }
 .newsletter-form button:hover{
   background: #833700;
-  transform: scale(1.1);
+  
 }
 
 svg {
@@ -636,6 +640,7 @@ svg path {
 
 svg:hover path {
   fill: #833700 !important;
+  
 }
 
 /* FOOTER */
